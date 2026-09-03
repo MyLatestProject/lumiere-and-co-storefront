@@ -1,0 +1,17 @@
+{
+  "sections": {
+    "main": {
+      "type": "product-main",
+      "blocks": {
+        "title": { "type": "title" },
+        "price": { "type": "price" },
+        "variant_picker": { "type": "variant_picker" },
+        "description": { "type": "description" },
+        "tabs": { "type": "product-tabs" },
+        "reviews": { "type": "product-reviews" }
+      },
+      "block_order": ["title", "price", "variant_picker", "description", "tabs", "reviews"]
+    }
+  },
+  "order": ["main"]
+}
