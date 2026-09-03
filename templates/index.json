@@ -1,0 +1,30 @@
+{
+  "sections": {
+    "hero": {
+      "type": "hero-banner",
+      "settings": {
+        "heading": "Elevate Your Ambiance",
+        "subheading": "Handcrafted artisanal home fragrances for the discerning homeowner.",
+        "button_text": "Explore the Collection",
+        "button_link": "/collections/all",
+        "image": "https://images.unsplash.com/photo-1602607680064-3c0f2f4c6c6d?auto=format&fit=crop&w=1600&q=80"
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Curated Favorites",
+        "collection": "frontpage"
+      }
+    },
+    "brand_story": {
+      "type": "brand-story",
+      "settings": {
+        "heading": "The Lumière Philosophy",
+        "text": "Sourced ethically, poured with intention. Every candle and diffuser is a testament to sustainable luxury.",
+        "image": "https://images.unsplash.com/photo-1616400619175-5beda3a17896?auto=format&fit=crop&w=800&q=80"
+      }
+    }
+  },
+  "order": ["hero", "featured_collection", "brand_story"]
+}

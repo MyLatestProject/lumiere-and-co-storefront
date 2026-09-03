@@ -1,0 +1,63 @@
+/* Lumière & Co. - Premium Design System */
+
+/* Base Accessibility */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.sr-only:focus {
+  position: fixed;
+  width: auto;
+  height: auto;
+  padding: 1rem;
+  margin: 0;
+  overflow: visible;
+  clip: auto;
+  white-space: normal;
+  background-color: #1A1A1A;
+  color: #FDFBF7;
+  z-index: 9999;
+}
+
+/* Animations */
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fade-in-up 0.8s ease-out forwards;
+}
+
+/* Smooth Scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom Scrollbar for Cart Drawer */
+#cart-items-container::-webkit-scrollbar {
+  width: 6px;
+}
+
+#cart-items-container::-webkit-scrollbar-track {
+  background: #FDFBF7;
+}
+
+#cart-items-container::-webkit-scrollbar-thumb {
+  background-color: #C5A059;
+  border-radius: 3px;
+}
